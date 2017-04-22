@@ -1,0 +1,12 @@
+from visual import *
+
+dt = 0.1
+
+windows = []
+
+for i in range(3):
+    windows.append(display(x = 0,y = 30 + 250*i,width = 600, height = 220))
+
+windows[0].title = "start"
+windows[1].title = "start"
+windows[2].title = "start"
